@@ -1,0 +1,33 @@
+[debug] [2024-05-29T12:22:31.289Z] ----------------------------------------------------------------------
+[debug] [2024-05-29T12:22:31.291Z] Command:       /usr/local/bin/node /usr/local/bin/firebase login
+[debug] [2024-05-29T12:22:31.291Z] CLI Version:   13.10.2
+[debug] [2024-05-29T12:22:31.291Z] Platform:      darwin
+[debug] [2024-05-29T12:22:31.291Z] Node Version:  v20.11.1
+[debug] [2024-05-29T12:22:31.291Z] Time:          Wed May 29 2024 15:22:31 GMT+0300 (Eastern European Summer Time)
+[debug] [2024-05-29T12:22:31.291Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=562048386&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-05-29T12:23:09.475Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2024-05-29T12:23:09.476Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"5be9a05e-4760-4888-9553-27cd009ca4ce"}
+[debug] [2024-05-29T12:23:10.309Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2024-05-29T12:23:10.309Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"QzrlQInZUjKycbUpTZXZEItqvFdRayzBsVwtRpnvEbk"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    5BE9A
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=FpfZCB-F7TP5D7RhHluUP9qh57HHDHhnfFrec8Fur50&session=5be9a05e-4760-4888-9553-27cd009ca4ce&attest=QzrlQInZUjKycbUpTZXZEItqvFdRayzBsVwtRpnvEbk
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
